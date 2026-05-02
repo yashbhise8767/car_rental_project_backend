@@ -6,7 +6,7 @@ FROM eclipse-temurin:17-jdk
 WORKDIR /app
 
 # Copy the built jar
-COPY target/Car-Rental-0.0.1-SNAPSHOT.jar app.jar
+#COPY target/Car-Rental-0.0.1-SNAPSHOT.jar app.jar
 
 # Expose port
 EXPOSE 8000
